@@ -33,8 +33,9 @@ double mochila(vector<Objeto>& objetos, int capacidad) {
 
 int main() {
 	vector<Objeto> objetos = {
-		{10, 40},
-	{20, 100},
+		{10, 20},
+		{20, 100},
+		{15, 40},
 		{30, 120}
 	};
 	int capacidadMochila = 50;
