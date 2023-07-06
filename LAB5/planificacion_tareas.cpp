@@ -33,21 +33,21 @@ vector<Tarea> planificacionVoraz(vector<Tarea>& tareas) {
 int main() {
 	vector<Tarea> tareas = {
 		{1, 4},
-	{3, 5},
+		{3, 5},
 		{0, 6},
-	{5, 7},
+		{5, 7},
 		{3, 8},
-	{5, 9},
+		{5, 9},
 		{6, 10},
-	{8, 11},
+		{8, 11},
 		{8, 12},
-	{2, 13},
+		{2, 13},
 		{12, 14}
 	};
 	
 	vector<Tarea> planificacion = planificacionVoraz(tareas);
 	
-	cout << "Planificación de tareas: " << endl;
+	cout << "PlanificaciÃ³n de tareas: " << endl;
 	for (const auto& tarea : planificacion) {
 		cout << "Inicio: " << tarea.inicio << ", Fin: " << tarea.fin << endl;
 	}
